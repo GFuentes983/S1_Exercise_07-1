@@ -44,4 +44,5 @@ a#navicon {
     nav.horizontal ul:hover, a#navicon:hover+ul {
         display: block;
     }
+    
 }
