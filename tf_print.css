@@ -1,11 +1,15 @@
 @charset "utf-8";
+
+@page {
+    size: 8.5in 11in;
+}
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author: Gabriel Fuentes   
+   Date: 11.15.18     
    
    Filename: tf_print.css
 
@@ -17,7 +21,9 @@
 
 
 /* Hidden Objects */
-
+nav.horizontal, aside, footer {
+    display: none;
+}
 
 
 /* Page Box Styles */
